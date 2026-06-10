@@ -666,8 +666,18 @@ footer p {
 
     .military-card {
         background-image:
-            linear-gradient(rgba(0,0,0,0.78), rgba(0,0,0,0.78)),
+            linear-gradient(
+                to right,
+                rgba(0, 0, 0, 0.88) 0%,
+                rgba(0, 0, 0, 0.65) 35%,
+                rgba(0, 0, 0, 0.25) 60%,
+                rgba(0, 0, 0, 0.00) 100%
+            ),
             url("images/military.jpg");
+    
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
     }
 
     .tutoring-card {
